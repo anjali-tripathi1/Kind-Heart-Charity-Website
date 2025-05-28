@@ -319,13 +319,13 @@ input[type='text']{
      border: 2px solid black;
     padding: 1rem 3rem;
     border-radius: 1rem;
-    opacity: 0;
+    opacity: 1;
     transition: all 0.2s ease-in-out;
 }
 
 .earth-container:hover{
-   transform: scale(1 2);
-   opacity: 1;  
+    transform: scaleX( 1.2);
+   
 }
 
 .volunteer .text-box{
