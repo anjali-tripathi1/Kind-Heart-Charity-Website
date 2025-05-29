@@ -391,7 +391,15 @@ input[type='text']{
     }
 
     
+   /* ################# story container ################ */
 
+   .story{
+      padding: 5rem 0;
+   }
+
+   .story-container{
+       display: flex;
+   }
 
 
 
