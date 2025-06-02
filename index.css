@@ -409,7 +409,7 @@ input[type='text']{
    }
 
    .story-img{
-     width: 50%;
+     width: 700px;
    }
 
    .story-img img{
@@ -417,6 +417,10 @@ input[type='text']{
     width: 100%;
 
     height: 700px;
+   }
+
+   .story-text{
+     width: 600px;
    }
 
 
