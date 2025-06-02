@@ -213,6 +213,7 @@ input[type='text']{
 
 .symbol i{
    margin-left: 2rem;
+   cursor: pointer;
 }
 
 
@@ -314,6 +315,23 @@ input[type='text']{
     
 }
 
+.earth-container{
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 5px 5px 10px 0 #aaa;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.earth-container:hover{
+     transform: scaleX(1.2);
+}
+
+
+
+
+
 
 
 .volunteer .text-box{
@@ -390,6 +408,16 @@ input[type='text']{
        display: flex;
    }
 
+   .story-img{
+     width: 50%;
+   }
+
+   .story-img img{
+    display: block;
+    width: 100%;
+
+    height: 700px;
+   }
 
 
 
