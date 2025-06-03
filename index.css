@@ -88,6 +88,7 @@ a{
     opacity: 0.85;
     z-index: 999;
     padding: 2rem;
+    
 }
 
 .navbar-container{
@@ -401,7 +402,9 @@ input[type='text']{
    /* ################# story container ################ */
 
    .story{
-      padding: 5rem 0;
+      padding: 10rem 0;
+      background: #cecece;
+      position: relative;
    }
 
    .story-container{
@@ -409,21 +412,103 @@ input[type='text']{
    }
 
    .story-img{
-     width: 700px;
+     width: 600px;
+     
    }
 
    .story-img img{
     display: block;
     width: 100%;
-
+     padding: 1rem;
     height: 700px;
+    border-radius: 3rem;
    }
 
    .story-text{
      width: 600px;
+     padding: 1rem 2rem;
+     background: #fff;
+     border-radius: 3rem;
+     height: 350px;
+     margin-top: 1rem;
+     margin-left: 1.5rem;
    }
 
+   .our{
+      font-size: 4rem;
+       margin-top: 2rem;
+       color: #444;
+   }
 
+   .kind{
+       font-size: 2.5rem;
+       margin-top: 1rem;
+       color: #41fd33;
+   }
+
+   .para{
+      font-size: 2rem;
+      margin-top: 1.5rem;
+      color: #666;
+   }
+
+   .mission-text{
+      position: absolute;
+      top: 50%;
+      left: 51%;
+      width: 250px;
+      height: 300px;
+      background: #fff;
+      border-radius: 3rem;
+      margin-top: 3rem;
+      padding: 2rem;
+      
+   }
+
+   .mission{
+      font-size: 2.5rem;
+      color: #41fd33;
+   }
+
+   .sed{
+      font-size: 2rem;
+   }
+
+   .mission-text p{
+       margin-top: 1rem;
+   }
+
+   .same{
+      font-size: 1.6rem;
+      
+   }
+
+   .same::before{
+      content: '\2713';
+      font-size: 2rem;
+      color: #41fd33;
+   }
+
+   .found-text{
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      width: 250px;
+      height: 300px;
+      background: #fff;
+      border-radius: 3rem;
+      margin-top: 3rem;
+      padding: 3.5rem 5rem;
+   }
+
+   .number{
+      font-size: 5.5rem;
+      color: #41fd33;
+   }
+
+   .found{
+      font-size: 1.6rem;
+   }
 
 
 
