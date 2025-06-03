@@ -738,7 +738,79 @@ input[type='text']{
         box-shadow: 5px 5px 10px 0 #454545;
     }
 
-    
+    /* #################### volunteer-text #################### */
+
+    .volunteer-text{
+        padding: 8rem 0;
+        background: #999;
+        position: relative;
+    }
+
+    .volunteer-text h1{
+        text-align: left;
+        font-size: 4rem;
+        color: #fff;
+        margin-left: 3rem;
+    }
+
+    .volunteer-text-container{
+        background: #fff;
+        width: 600px;
+        height: 500px;
+        position: absolute;
+        top: 65%;
+        left: 5%;
+        padding: 2rem;
+    }
+
+    .be{
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    input[type='text']{
+        display: inline-block;
+        background: lightblue;
+        border-radius: 1rem;
+        width: 200px;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    input[type='email']{
+        display: inline-block;
+        background: lightblue;
+        border-radius: 1rem;
+        width: 200px;
+        outline: none;
+        border: none;
+        height: 40px;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    textarea{
+        background: lightblue;
+        border: none;
+        outline: none;
+        font-size: 2rem;
+        width: 500px;
+        border-radius: 1rem;
+        height: 100px;
+    }
+
+    input{
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    input[type='file']{
+       
+    }
 
 
 
