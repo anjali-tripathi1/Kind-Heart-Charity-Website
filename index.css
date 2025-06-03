@@ -325,8 +325,9 @@ input[type='text']{
     
 }
 
-.earth-container:hover{
-     transform: scaleX(1.2);
+.earth-container:hover.img-box{
+     /* transform: scaleX(1); */
+     width: 100px;
 }
 
 
@@ -512,6 +513,62 @@ input[type='text']{
 
 
 
+   /* #####################  partner styling ################# */
+
+   .partner{
+       max-width: 800px;
+       margin: auto;
+       padding: 8rem 0;
+       position: relative;
+   }
+
+   .partner-container{
+      display: flex;
+   }
+
+   .partner-img{
+      width: 350px;
+   }
+
+   .partner-img img{
+      display: block;
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      padding: 1rem;
+      border-radius: 3rem;
+   }
+
+   .partner-text{
+      width: 400px;
+      padding: 1rem;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+   }
+
+   .san{
+       font-size: 4rem;
+   }
+
+   .co{
+       font-size: 1.5rem;
+   }
+
+   .lo{
+      font-size: 1.6rem;
+      margin-top: 1rem;
+   }
+
+   .partner-text i{
+      margin-top: 2rem;
+      padding: 0 1rem;
+      transition: color 0.3s ease-in-out;
+   }
+
+   .partner-text i:hover{
+      color: #41fd33;
+   }
 
 
 
@@ -689,6 +746,77 @@ input[type='text']{
     .travel{
         display: block;
         margin: 0 0;
+    }
+
+    .welcome-container{
+         display: flex;
+         flex-direction: column;
+    }
+
+    .img-box img{
+        
+         width: 200px;
+         margin: auto;
+    }
+
+    .earth-container{
+         padding: 3rem;
+         width: 250px;
+         margin: 2rem auto;
+          height: 300px;
+    }
+
+    .story{
+        height: 150vh;
+    }
+
+    .story-container{
+        display: block;
+
+    }
+
+    .story-img {
+        height: auto;
+        
+    }
+
+    .story-img img{
+        width: 100%;
+    }
+
+    .story-text{
+        width: auto;
+    }
+
+    .mission-text{
+        width: auto;
+        position: unset;
+         height: auto;
+         
+    }
+
+    .found-text{
+        width: auto;
+       position: unset;
+        height: auto;
+       
+    }
+
+    .partner-container{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .partner-img{
+        width: 100%;
+        
+    }
+
+    .partner-text{
+        position: unset;
+        text-align: center;
+        width: auto;
     }
 
    
