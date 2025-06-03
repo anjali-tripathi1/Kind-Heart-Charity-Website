@@ -319,17 +319,17 @@ input[type='text']{
 .earth-container{
     background: #fff;
     padding: 2rem;
-    box-shadow: 5px 5px 10px 0 #aaa;
+    transition: all 0.3s ease-in-out;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
-    
-}
 
-.earth-container:hover.img-box{
-     /* transform: scaleX(1); */
-     width: 100px;
-}
+    }
 
+    .earth-container:hover{
+        box-shadow: 5px 5px 10px 0 #aaa;
+        
+        
+    }
 
 
 
@@ -404,7 +404,7 @@ input[type='text']{
 
    .story{
       padding: 10rem 0;
-      background: #cecece;
+      background: #ccc;
       position: relative;
    }
 
@@ -423,6 +423,7 @@ input[type='text']{
      padding: 1rem;
     height: 700px;
     border-radius: 3rem;
+    object-fit: cover;
    }
 
    .story-text{
@@ -448,7 +449,7 @@ input[type='text']{
    }
 
    .para{
-      font-size: 2rem;
+      font-size: 1.8rem;
       margin-top: 1.5rem;
       color: #666;
    }
@@ -570,8 +571,96 @@ input[type='text']{
       color: #41fd33;
    }
 
+    /* ############### impact styling ################## */
 
+    .impact{
+        padding: 8rem 0;
+         background: #cdcdcd;
+    }
 
+    .impact-container{
+         width: 800px;
+         margin: auto;
+         position: relative;
+         overflow: initial;
+        
+    }
+
+    .impact h1{
+        font-size: 4rem;
+        color: #555;
+        
+    }
+
+    .impact p{
+        font-size: 1.6rem;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+    }
+
+    .become{
+        display: inline-block;
+        background: #555;
+        padding: 1rem 2rem;
+        color: #fff;
+        font-size: 2rem;
+        border-radius: 3rem;
+        position: absolute;
+        top: 45%;
+        left: 69%;
+    }
+
+    .become:hover{
+        background: #222;
+
+    }
+
+    /* ################### cause styling ################ */
+
+    .causes{
+        padding: 5rem 0;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    .cause-know{
+        display: flex;
+        flex-direction: row;
+    }
+
+   
+    
+    .heading{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .cause-img{
+        width: 380px;
+    }
+
+    .cause-img img{
+        display: block;
+        width: 100%;
+        border-radius: 3rem;
+        height: 250px;
+    }
+
+    .cause-item{
+        margin: 0 1rem;
+    }
+
+    .cause-text{
+        width: 400px;
+    }
+
+    .child{
+        font-size: 2rem;
+        margin-top: 2rem;
+        color: #41fd33;
+        text-align: left;
+    }
 
 
 
