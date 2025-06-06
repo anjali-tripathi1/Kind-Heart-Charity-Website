@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*::after,
+*::before,
 *{
     margin: 0;
     padding: 0;
@@ -88,8 +90,12 @@ a{
     opacity: 0.85;
     z-index: 999;
     padding: 2rem;
-    
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 }
+
+
 
 .navbar-container{
     display: flex;
@@ -321,7 +327,7 @@ input[type='text']{
     padding: 2rem;
     transition: all 0.3s ease-in-out;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
 
     }
 
@@ -404,7 +410,7 @@ input[type='text']{
 
    .story{
       padding: 10rem 0;
-      background: #ccc;
+      background: #f5f5f7;
       position: relative;
    }
 
@@ -413,7 +419,7 @@ input[type='text']{
    }
 
    .story-img{
-     width: 600px;
+     width: 500px;
      
    }
 
@@ -427,40 +433,45 @@ input[type='text']{
    }
 
    .story-text{
-     width: 600px;
+     width: 530px;
      padding: 1rem 2rem;
-     background: #fff;
+     background: #cecece;
      border-radius: 3rem;
      height: 350px;
      margin-top: 1rem;
      margin-left: 1.5rem;
+     position: absolute;
+     top: 12%;
+     left: 50%;
    }
 
    .our{
       font-size: 4rem;
        margin-top: 2rem;
        color: #444;
+       font-weight: 600;
    }
 
    .kind{
        font-size: 2.5rem;
        margin-top: 1rem;
-       color: #41fd33;
+       color: #fff;
    }
 
    .para{
       font-size: 1.8rem;
       margin-top: 1.5rem;
       color: #666;
+      font-weight: 500;
    }
 
    .mission-text{
       position: absolute;
-      top: 50%;
+      top: 52%;
       left: 51%;
       width: 250px;
       height: 300px;
-      background: #fff;
+      background: #cecece;
       border-radius: 3rem;
       margin-top: 3rem;
       padding: 2rem;
@@ -469,8 +480,8 @@ input[type='text']{
 
    .mission{
       font-size: 2.5rem;
-      color: #41fd33;
-   }
+      color: #fff;
+      }
 
    .sed{
       font-size: 2rem;
@@ -482,22 +493,24 @@ input[type='text']{
 
    .same{
       font-size: 1.6rem;
+      font-weight: 500;
       
    }
 
    .same::before{
       content: '\2713';
       font-size: 2rem;
-      color: #41fd33;
+      color: #fff;
+      font-weight: 600;
    }
 
    .found-text{
       position: absolute;
-      top: 50%;
+      top: 52%;
       left: 75%;
       width: 250px;
       height: 300px;
-      background: #fff;
+      background: #cecece;
       border-radius: 3rem;
       margin-top: 3rem;
       padding: 3.5rem 5rem;
@@ -505,11 +518,12 @@ input[type='text']{
 
    .number{
       font-size: 5.5rem;
-      color: #41fd33;
+      color: #fff;
    }
 
    .found{
       font-size: 1.6rem;
+      font-weight: 500;
    }
 
 
@@ -546,6 +560,7 @@ input[type='text']{
       position: absolute;
       top: 25%;
       left: 50%;
+      
    }
 
    .san{
@@ -559,6 +574,8 @@ input[type='text']{
    .lo{
       font-size: 1.6rem;
       margin-top: 1rem;
+      color: #555;
+      font-weight: 500;
    }
 
    .partner-text i{
@@ -568,7 +585,7 @@ input[type='text']{
    }
 
    .partner-text i:hover{
-      color: #41fd33;
+      color: #aaa;
    }
 
     /* ############### impact styling ################## */
@@ -742,9 +759,9 @@ input[type='text']{
 
     .volunteer-text{
         padding: 8rem 0;
-        background: #999;
+        background: #cfcfcf;
         position: relative;
-        height: 130vh;
+        
     }
 
     .volunteer-text h1{
@@ -755,14 +772,24 @@ input[type='text']{
     }
 
     .volunteer-text-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .file-text{
         background: #fff;
-        width: 600px;
-        height: 600px;
-        position: absolute;
-        top: 20%;
-        left: 5%;
+        width: 550px;
+        padding: 0 3rem;
         border-radius: 3rem;
-        padding-left: 5rem;
+        margin-top: 3rem;
+    }
+
+    .file-text h2{
+        color: #555;
+    }
+
+    .volunteer-texts{
+        text-align: center;
     }
 
     .be{
@@ -775,7 +802,7 @@ input[type='text']{
 
     input[type='text']{
         display: inline-block;
-        background: lightblue;
+        background: rgb(179, 212, 221);
         border-radius: 1rem;
         width: 200px;
         height: 50px;
@@ -786,9 +813,9 @@ input[type='text']{
 
     input[type='email']{
         display: inline-block;
-        background: lightblue;
+        background: rgb(179, 212, 221);
         border-radius: 1rem;
-        width: 200px;
+        width: 260px;
         outline: none;
         border: none;
         height: 50px;
@@ -799,8 +826,12 @@ input[type='text']{
         padding-left: 10px;
     }
 
+    input.sub{
+        width: 480px;
+    }
+
     .team{
-        background: lightblue;
+        background: rgb(179, 212, 221);
         border: none;
         outline: none;
         font-size: 2rem;
@@ -819,7 +850,7 @@ input[type='text']{
      } 
 
      input[type='file']{
-         background: lightblue;
+         background: rgb(179, 212, 221);
          border-radius: 1rem;
          height: 50px;
          padding-top: 1rem;
@@ -833,16 +864,50 @@ input[type='text']{
         background: #555;
         color: #fff;
         font-size: 2rem;
-        width: 88%;
+        width: 100%;
         border-radius: 3rem;
         text-align: center;
         margin-top: 2rem;
         padding: 0.8rem 0;
+        margin-bottom: 4rem;
      }
 
      .submit:hover{
         background: #aaa;
         box-shadow: 5px 5px 10px 0 #232323;
+     }
+
+     .volunteer-image{
+         width: 300px;
+     }
+
+     .volunteer-image img{
+         display: block;
+         width: 100%;
+         height: 300px;
+         border-radius: 50%;
+         background: #fff;
+         object-fit: cover;
+     }
+
+
+     .volunteer-texts h2{
+         font-size: 2.5rem;
+         color: #fff;
+         margin: 4rem 0 3rem 0;
+     }
+
+     .volunteer-texts p{
+         font-size: 1.6rem;
+         line-height: 1.8;
+         color: #555;
+     }
+
+     .position-container{
+          position: absolute;
+          top: 13%;
+          left: 60%;
+
      }
     
     
