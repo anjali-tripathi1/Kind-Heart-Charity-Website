@@ -519,11 +519,18 @@ input[type='text']{
    .number{
       font-size: 5.5rem;
       color: #fff;
+      animation: grow-number 0.3s ease-in-out;
+      
    }
 
+   
    .found{
       font-size: 1.6rem;
       font-weight: 500;
+   }
+
+   .donate:hover .cause-item .cause-text{
+        box-shadow: 5px 5px 10px 0 #aaa;
    }
 
 
@@ -910,6 +917,58 @@ input[type='text']{
 
      }
     
+
+     /* ############################### news-item styling #################### */
+
+     .news-item{
+        padding: 8rem 0;
+        position: relative;
+     }
+
+     .news-container h1{
+         font-size: 4rem;
+         color: #555;
+     }
+
+     .news-image{
+        width: 600px;
+     }
+
+     .news-image img{
+        display: block;
+        width: 100%;
+        border-radius: 3rem;
+        margin-top: 5rem;
+       
+     }
+
+     .life{
+          border: 2px solid #555;
+          width: 48%;
+          position: absolute;
+          top: 82%;
+          color: #fff;
+          padding-left: 3rem;
+          font-size: 1.6rem;
+          border-radius: 3rem;
+          height: 40px;
+         
+         
+     }
+
+     .cloth{
+        
+        color: #fff;
+        position: absolute;
+        top: 82%;
+        left: 15%;
+        font-size: 1.6rem;
+     }
+
+     .life:hover,
+     .cloth:hover{
+         color: #41fd33;
+     }
     
 
 
