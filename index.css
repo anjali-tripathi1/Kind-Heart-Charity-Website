@@ -951,16 +951,18 @@ input[type='text']{
           padding-left: 3rem;
           font-size: 1.6rem;
           border-radius: 3rem;
-          height: 40px;
-         
-         
+          height: 42px;
+         background: #555;
+        
      }
+
+     
 
      .cloth{
         
         color: #fff;
         position: absolute;
-        top: 82%;
+        top: 82.5%;
         left: 15%;
         font-size: 1.6rem;
      }
