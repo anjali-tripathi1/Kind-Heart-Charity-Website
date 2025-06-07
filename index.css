@@ -922,16 +922,18 @@ input[type='text']{
 
      .news-item{
         padding: 8rem 0;
-        position: relative;
+        
      }
 
-     .news-container h1{
+     
+     .late{
          font-size: 4rem;
          color: #555;
      }
 
      .news-image{
         width: 600px;
+        position: relative;
      }
 
      .news-image img{
@@ -942,11 +944,11 @@ input[type='text']{
        
      }
 
-     .life{
+     .style{
           border: 2px solid #555;
-          width: 48%;
+          width: 100%;
           position: absolute;
-          top: 82%;
+          top: 30%;
           color: #fff;
           padding-left: 3rem;
           font-size: 1.6rem;
@@ -956,20 +958,118 @@ input[type='text']{
         
      }
 
-     
+     .life{
+        color: #fff;
+        font-size: 1.6rem;
+     }
 
      .cloth{
         
         color: #fff;
-        position: absolute;
-        top: 82.5%;
-        left: 15%;
-        font-size: 1.6rem;
+       font-size: 1.6rem;
      }
 
      .life:hover,
      .cloth:hover{
          color: #41fd33;
+     }
+
+     .small-item{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+        width: 500px;
+        padding: 0 1rem;
+     }
+
+     .small-item p{
+        font-size: 1.6rem;
+        color: #666;
+     }
+
+     .small-item i{
+        color: #555;
+     }
+
+     .area{
+        font-size: 2.5rem;
+        margin: 1.5rem 0;
+     }
+
+     .ipsum{
+        font-size: 1.6rem;
+        width: 580px;
+        color: #555;
+     }
+
+     .news-text a{
+        background: lightblue;
+     }
+
+     .food-image{
+        position: relative;
+     }
+
+     .style-1{
+          border: 2px solid #555;
+          width: 100%;
+          position: absolute;
+          top: 90%;
+          color: #fff;
+          padding-left: 3rem;
+          font-size: 1.6rem;
+          border-radius: 3rem;
+          height: 42px;
+         background: #555;
+        
+     }
+
+
+     .food{
+        color: #fff;
+        font-size: 1.6rem;
+     }
+
+     .donation{
+        color: #fff;
+        font-size: 1.6rem;
+     }
+
+     .food:hover,
+     .donation:hover{
+        color: #41fd33;
+     }
+
+    
+
+     .custo{
+         margin: 3rem 0;
+     }
+
+     .non{
+        font-size: 2.3rem;
+        width: 700px;
+        margin: 0 auto;
+        font-weight: 500;
+     }
+
+     /* .happy p{
+        display: inline-block;
+
+     }
+
+     .happy i{
+        display: inline-block;
+     } */
+
+
+     /* #################### happy styling ######################### */
+
+     .happy{
+        padding: 8rem 0;
+        background: #cfcfcf;
+        text-align: center;
+        font-size: 3rem;
      }
     
 
