@@ -1042,25 +1042,7 @@ input[type='text']{
 
     
 
-     .custo{
-         margin: 3rem 0;
-     }
-
-     .non{
-        font-size: 2.3rem;
-        width: 700px;
-        margin: 0 auto;
-        font-weight: 500;
-     }
-
-     /* .happy p{
-        display: inline-block;
-
-     }
-
-     .happy i{
-        display: inline-block;
-     } */
+   
 
 
      /* #################### happy styling ######################### */
@@ -1070,6 +1052,24 @@ input[type='text']{
         background: #cfcfcf;
         text-align: center;
         font-size: 3rem;
+        position: relative;
+     }
+
+       .custo{
+         margin: 3rem 0;
+     }
+
+     .non{
+        font-size: 2.3rem;
+        width: 700px;
+        margin: 0 auto;
+        font-weight: 500;
+        
+     }
+
+     .left{
+         position: absolute;
+         left: 19.5%;
      }
     
 
